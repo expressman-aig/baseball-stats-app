@@ -3,7 +3,7 @@ import pandas as pd
 
 # 1. 画面の基本設定（ブラウザのタブ名や横幅）
 st.set_page_config(page_title="高校野球分析システム", layout="wide")
-st.title("⚾️ 高校野球 OPS & 打撃成績ランキング")
+st.title("⚾️ OPS分析・ランキング表示ツール")
 st.write("スプレッドシートのデータを読み込み、リアルタイムで指標を算出します。")
 
 # 2. スプレッドシートURLの入力欄
